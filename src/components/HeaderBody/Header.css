@@ -1,0 +1,123 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f9f9f9;
+    height: 600px;
+}
+
+/* Heading and paragraph*/
+.heading {
+    display: flex;
+
+}
+
+h1 {
+    color: #2A3356;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 93.833%;
+    margin-top: 168px;
+    margin-left: 72px;
+}
+
+.work {
+    color: #2A3356;
+    text-align: center;
+    font-family: PilGi;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 93.833%;
+    letter-spacing: 0.96px;
+    margin-top: 175px;
+    margin-left: 12px;
+}
+
+.content {
+    color: var(--01, #2A3356);
+    text-align: justify;
+    width: 444px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 157.833%;
+    letter-spacing: 0.48px;
+    margin-top: 40px;
+    margin-left: 70px;
+}
+
+/*Buttons*/
+.arrow {
+    font-size: 24px;
+}
+
+.readMore {
+    margin-left: 70px;
+    margin-top: 20px;
+    width: 157px;
+    height: 40px;
+    display: inline-flex;
+    padding: 8px 19px;
+    justify-content: center;
+    align-items: center;
+    gap: 19px;
+    border-radius: 4px;
+    background: #F35B25;
+    color: white;
+}
+
+.contactUs {
+    margin-left: 31px;
+    border: 1px solid  #F35B25;
+    width: 157px;
+    height: 40px;
+    display: inline-flex;
+    padding: 8px 19px;
+    justify-content: center;
+    align-items: center;
+    gap: 19px;
+    border-radius: 4px;
+    background-color: white;
+    color: #F35B25;
+}
+
+/*Slider*/
+.slider {
+    display: flex;
+    margin-left: 276px;
+}
+
+.img1 {
+    width: 335px;
+    height: 379px;
+    margin-top: 121px;
+}
+
+.img2 {
+    width: 249px;
+    height: 281px;
+    margin-left: 107px;
+    margin-top: 169px;
+}
+
+.navigate {
+    display: flex;
+   align-items: center;
+}
+
+.left {
+    width: 83px;
+    height: 83px;
+}
+
+.murtiName {
+    color: #2A3356;
+    width: 254px;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 93.833%;
+}

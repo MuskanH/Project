@@ -1,0 +1,58 @@
+.bar {
+    display: flex;
+    height: 100px;
+    background-color: white;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.Products {
+    color: #2A3356;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.04px;
+    margin-left: 72px;
+    margin-top: 39px;
+}
+
+.navigate {
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+}
+
+.text {
+    color: #F35B25;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 93.833%;
+}
+
+.all {
+    color: #2A3356;
+
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 93.833%;
+}
+
+.searchBar {
+    align-self: center;
+    margin-right: 32px;
+    width: 229px;
+    height: 40px;
+    border-radius: 5px;
+    color: #858585;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 93.833%;
+    letter-spacing: 0.42px;
+    margin-left: 50px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+}

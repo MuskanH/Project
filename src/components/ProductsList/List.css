@@ -1,0 +1,29 @@
+.container {
+    width: 444px;
+    height: 304px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.productImg {
+    width: 135px;
+    height: 167px;
+    margin-left: 29px;
+    margin-top: 21px;
+}
+
+.productName {
+    color: #2A3356;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.54px;
+    margin-top: 6px;
+    margin-left: 25px;
+}
+
+.productIcons {
+    color: #2A3356;
+    margin-left: 404px;
+}

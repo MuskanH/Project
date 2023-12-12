@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Plus+Jakarta+Sans:wght@300;400;500;600&family=Poppins:wght@300;400;500;600&family=Space+Grotesk&family=Ubuntu&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Plus+Jakarta+Sans:wght@300;400;500;600&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300&family=Space+Grotesk&family=Ubuntu&family=Varela+Round&display=swap');
+
+*{
+    font-family: Poppins;
+}
+.navbar {
+    height: 85px;
+    background-color: #2A3356;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+/*Logo*/
+.logo {
+    display: flex;
+    align-items: center;
+
+}
+
+.logoBox {
+    width: 60px;
+    height: 63px;
+    border-radius: 5px;
+    background: #F9F9F9;
+    margin-left: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logoImg {
+    width: 54px;
+    height: 57px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    color: #F9F9F9;
+    text-align: center;
+    font-family: Philosopher;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 93.833%;
+    padding-left: 17px;
+}
+
+.tagline {
+    color: #F9F9F9;
+    text-align: center;
+    font-family: PilGi;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 93.833%;
+    letter-spacing: 0.8px;
+    padding-top: 4px;
+}
+
+/* Nav links*/
+.main-nav {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.54px;
+    color: white;
+    list-style: none;
+    display: inline-flex;
+    flex-direction: row;
+
+}
+
+.nav-item {
+    margin-right: 50px;
+    align-self: center;
+}
+
+.active {
+    border-bottom: 2px solid white;
+    font-weight: 700;
+}
+
+/*Icons*/
+.icons {
+    color: white;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.translate,
+.user {
+    margin-right: 30px;
+    align-self: center;
+}
+
+/* Search Bar*/
+.searchBar {
+    align-self: center;
+    margin-right: 32px;
+    width: 229px;
+    height: 40px;
+    border-radius: 5px;
+    color: #858585;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 93.833%;
+    letter-spacing: 0.42px;
+}
